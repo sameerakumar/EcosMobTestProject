@@ -1,0 +1,19 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "EcosMob project",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8",
+    "nodemailer": "^6.4.17",
+    "nodemon": "^2.0.6",
+    "save": "^2.4.0"
+  }
+}
