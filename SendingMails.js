@@ -62,7 +62,7 @@ var SendingMailsToUsers = {
                             console.log(error);
 
                         }else{
-                            console.log("Message sent: ");
+                            console.log("Message sent: ",response.response);
                         }
                     });
                 found[i].sendMailTime = new Date().getTime().toString()
